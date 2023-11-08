@@ -39,13 +39,14 @@ h1 {
 }
 
 .timer {
-    /* margin-top: 1rem; */
+    
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 0.4rem;
     margin-right: 0.4rem;
+
 }
 
 input {
@@ -72,7 +73,7 @@ button {
 
 .song-item {
 
-    /* margin-top: 50px; */
+    
     border: 2.5px solid white;
     width: 65%;
     margin: 10px auto;
