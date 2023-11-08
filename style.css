@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    background-image: url(./Assets/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+
+}
+
+.music-container {
+    background-image: url(./Assets/img-1.jpg);
+    /* background-size: cover; */
+    width: 20rem;
+    height: 32rem;
+    border: 5px solid grey;
+    border-radius: 2rem;
+    margin: 0rem 55rem;
+
+    /* background-color: rgb(209, 221, 209); */
+
+
+}
+
+
+h1 {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    /* color: rgb(225, 186, 12); */
+    color: white;
+}
+
+.timer {
+    /* margin-top: 1rem; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+input {
+    height: 2rem;
+    width: 100%;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(224, 192, 192);
+    padding: 5px;
+}
+
+.btn-play {
+    margin-left: 6.2rem;
+    cursor: pointer;
+
+}
+
+.song-item {
+
+    /* margin-top: 50px; */
+    border: 2.5px solid white;
+    width: 65%;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    list-style: none;
+    color: white;
+
+}
+
+.song-item:hover {
+    /* background-color: rgb(2, 80, 2); */
+    background-color: burlywood;
+    color: black;
+    border: 2px solid rgb(0, 28, 0);
+}
